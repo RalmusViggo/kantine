@@ -13,7 +13,7 @@ def kontakt():
 
 @app.route('/meny.html')
 def meny():
-    return render_template("meny.html", varm=input("hva er dagen's varmmat: "))
+    return render_template("meny.html")
 
 @app.route('/varer.html')
 def varer():
