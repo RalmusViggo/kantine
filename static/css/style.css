@@ -17,4 +17,9 @@ nav {
 a {
     font-size: xx-large;
     color: aqua;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+li {color: aqua;
+font-family: 'Courier New', Courier, monospace;
+font-size: large;}
