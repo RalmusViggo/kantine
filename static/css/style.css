@@ -1,1 +1,20 @@
-h1 { font-family: 'Courier New', Courier, monospace; color: teal;}
+body {background-color:rgb(0, 0, 0);}
+
+h1 { font-family: 'Courier New', Courier, monospace; color: aqua;}
+
+nav {
+    overflow: auto;
+    text-align: center;
+    word-spacing: 100px;
+}
+.text-block {
+  border: 2px solid aqua; /* Sets a 2px solid black border */
+  padding: 1em;            /* Adds 1em of padding around the text */
+  border-radius: 8px;      /* Rounds the corners with an 8px radius */
+  background-color: black;
+
+}
+a {
+    font-size: xx-large;
+    color: aqua;
+}
