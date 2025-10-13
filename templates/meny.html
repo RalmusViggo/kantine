@@ -3,28 +3,26 @@
 {% block title %} meny {% endblock %}
 
 {% block content %}
-    <h1> Meny. </h1>
-    <li> 1. mat
-        <br>
-        2. mat
-        <br>
-        3. mat
-        <br>
-        4. mat
-        <br>
-        5. mat
-        <h3> 
-            dagenes varmmat:
-        </h3>
-        <br>
-        mandag: pølser. kokte wienerpølse.
-        <br>
-        tirsdag: kokte poteter. en tallerken med kokte poteter.
-        <br>
-        onsdag: kokt brokkoli. en tallerken med kokt brokkoli.
-        <br>
-        torsdag: varm havregrøt. en skål med varm havregrøt.
-        <br>
-        fredag: laktose-fri pizza. laktose-fri pizza med pepperoni.
+    <div class = "dag"> Dag: {{day.strftime("%A")}} </div>
+    <li>
+    <h2> Meny: </h2>
+    {% for mat in dag[day.strftime("%A")] %}
+    - {{mat}}
+    <br> 
+    {% endfor %}
+    <h3> 
+        dagenes varmmat:
+    </h3>
+    <br>
+    mandag: pølser. kokte wienerpølse.
+    <br>
+    tirsdag: kokte poteter. en tallerken med kokte poteter.
+    <br>
+    onsdag: kokt brokkoli. en tallerken med kokt brokkoli.
+    <br>
+    torsdag: varm havregrøt. en skål med varm havregrøt.
+    <br>
+    fredag: laktose-fri pizza. laktose-fri pizza med pepperoni.
     </li>
+    
 {% endblock %}
