@@ -4,12 +4,12 @@
 
 {% block content %}
     <div class = "dag"> Dag: {{day.strftime("%A")}} </div>
-    <li>
     <h2> Meny: </h2>
+    <ol>
     {% for mat in dag[day.strftime("%A")] %}
-    - {{mat}}
-    <br> 
+     <li>{{mat}}</li>
     {% endfor %}
+    </ol>
     <h3> 
         dagenes varmmat:
     </h3>
@@ -23,6 +23,5 @@
     torsdag: varm havregrøt. en skål med varm havregrøt.
     <br>
     fredag: laktose-fri pizza. laktose-fri pizza med pepperoni.
-    </li>
     
 {% endblock %}

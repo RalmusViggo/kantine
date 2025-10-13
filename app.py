@@ -17,7 +17,7 @@ def meny():
     return render_template("meny.html",
                            day = datetime.datetime.now(),
                            dag = {
-                               "Monday" : {
+                            "Monday" : {
                                "knekkebrød", "brød", "leverpostei", "kaviar", "ost"
                                },
                            "Tuesday" : {
@@ -36,7 +36,24 @@ def meny():
 
 @app.route('/varer.html')
 def varer():
-    return render_template("varer.html")
+    return render_template("varer.html",
+                           vare = {
+                                "sjokomelk": {
+                                    "pris: ": "100"
+                                },
+                                "yoghurt": {
+                                    "vanilje": {"pris: ": 100}, 
+                                    "jordbær": {"pris: ": 100},
+                                    "skogsbær": {"pris: ": 100}
+                                },
+                                "brus": {
+                                    "cola zero": {"pris: " : 100},
+                                    "cola": {"pris: " : 100},
+                                    "sprite": {"pris: " : 100},
+                                    "fanta": {"pris: " : 100}
+                                }
+                            }
+                           )
 
 if __name__ == "__main__":
     app.run()

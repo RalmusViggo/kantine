@@ -5,4 +5,14 @@
 {% block content %}
 <h1> Varer </h1>
 
+<ol>
+{% for key, value in vare.items() %}
+    <li>{{key}} {{value}}</li>
+{% endfor %}
+</ol>
+
+<li>
+    {{vare}}
+</li>
+
 {% endblock %}
