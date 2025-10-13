@@ -37,7 +37,7 @@ def meny():
 @app.route('/varer.html')
 def varer():
     return render_template("varer.html",
-                           vare = {
+                           """vare = {
                                 "sjokomelk": {
                                     "pris: ": "100"
                                 },
@@ -52,7 +52,7 @@ def varer():
                                     "sprite": {"pris: " : 100},
                                     "fanta": {"pris: " : 100}
                                 }
-                            }
+                            }"""
                            )
 
 if __name__ == "__main__":
