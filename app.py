@@ -36,24 +36,32 @@ def meny():
 
 @app.route('/varer.html')
 def varer():
-    return render_template("varer.html",
-                           """vare = {
-                                "sjokomelk": {
-                                    "pris: ": "100"
-                                },
-                                "yoghurt": {
-                                    "vanilje": {"pris: ": 100}, 
-                                    "jordbær": {"pris: ": 100},
-                                    "skogsbær": {"pris: ": 100}
-                                },
-                                "brus": {
-                                    "cola zero": {"pris: " : 100},
-                                    "cola": {"pris: " : 100},
-                                    "sprite": {"pris: " : 100},
-                                    "fanta": {"pris: " : 100}
-                                }
-                            }"""
-                           )
+    return render_template("varer.html")
 
 if __name__ == "__main__":
     app.run()
+    
+    
+
+
+
+
+
+
+
+"""vare = {
+    "sjokomelk": {
+        "pris: ": "100"
+    },
+    "yoghurt": {
+        "vanilje": {"pris: ": 100}, 
+        "jordbær": {"pris: ": 100},
+        "skogsbær": {"pris: ": 100}
+    },
+    "brus": {
+        "cola zero": {"pris: " : 100},
+        "cola": {"pris: " : 100},
+        "sprite": {"pris: " : 100},
+        "fanta": {"pris: " : 100}
+    }
+}"""

@@ -5,14 +5,32 @@
 {% block content %}
 <h1> Varer </h1>
 
+
 <ol>
-<!--{% for key, value in vare.items() %}
-    <li>{{key}} {{value}}</li>
-{% endfor %}-->
+    <li>sjokolademelk</li>
+        pris: 40 kr
+    <li>yoghurt</li>
+        <ol>
+            <li>vanilje</li>
+                pris: 30 kr
+                <img src="/static/images/vanlilje.png">
+            <li>jordbær</li>
+                pris: 30 kr
+            <li>skogsbær</li>
+                pris: 30 kr
+        </ol>
+    <li>brus</li>
+        <ol>
+            <li>cola zero</li>
+                pris: 43 kr
+            <li>cola</li>
+                pris: 43 kr
+            <li>sprite</li>
+                pris: 43 kr
+            <li>fanta</li>
+                pris: 43 kr
+        </ol>
 </ol>
 
-<li>
-    {{vare}}
-</li>
 
 {% endblock %}

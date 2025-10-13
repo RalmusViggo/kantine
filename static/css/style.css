@@ -29,3 +29,7 @@ div {color: aqua;
 .dag {
   font-size: xx-large;
 }
+
+ol {color: aqua;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;}
