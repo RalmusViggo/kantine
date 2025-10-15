@@ -21,16 +21,16 @@ def meny():
                                "knekkebrød", "brød", "leverpostei", "kaviar", "ost"
                                },
                            "Tuesday" : {
-                               "1. knekkebrød", "2. brød", "3. jordbær syltetøy", "4. bringebær syltetøy", "5. skinke"
+                               "knekkebrød", "brød", "jordbær syltetøy", "bringebær syltetøy", "skinke"
                                },
                            "Wednesday" : {
-                               "1. knekkebrød", "2. brød", "3. salami", "4. brunost", "5. ost"
+                               "knekkebrød", "brød", "salami", "brunost", "ost"
                                },
                            "Thursday" : {
-                               "1. knekkebrød", "2. brød", "3. smør", "4. skinke", "5. kaviar"
+                               "knekkebrød", "brød", "smør", "skinke", "kaviar"
                                },
                            "Friday" : {
-                               "1. knekkebrød", "2. brød", "3. kaviar", "4. makrellitomat", "5. sursild"
+                               "knekkebrød", "brød", "kaviar", "makrellitomat", "sursild"
                                }
                            })
 
