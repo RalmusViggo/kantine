@@ -1,6 +1,14 @@
 body {background-color:rgb(0, 0, 0);}
 
-h1 { font-family: 'Courier New', Courier, monospace; color: aqua;}
+h1 { font-family:  'biome', 'Courier New', Courier, monospace; color: aqua;}
+
+@font-face {
+  font-family: 'biome';
+  src: url(/static/fonts/OnlineWebFonts_COM_69909bd400587d0ba6c81cc1d5ef66ac/BiomeW01Regular/BiomeW01Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 nav {
     overflow: auto;
@@ -8,32 +16,32 @@ nav {
     word-spacing: 100px;
 }
 .text-block {
-  border: 2px solid aqua; /* Sets a 2px solid black border */
-  padding: 1em;            /* Adds 1em of padding around the text */
-  border-radius: 8px;      /* Rounds the corners with an 8px radius */
+  border: 2px solid aqua; 
+  padding: 1em;           
+  border-radius: 8px;      
   background-color: black;
 
 }
 a {
     font-size: xx-large;
     color: aqua;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'biome', 'Courier New', Courier, monospace;
 }
 
 li {color: aqua;
-font-family: 'Courier New', Courier, monospace;
+font-family: 'biome', 'Courier New', Courier, monospace;
 font-size: large;}
 
 div {color: aqua;
-  font-family: 'Courier New', Courier, monospace;}
+  font-family: 'biome', 'Courier New', Courier, monospace;}
 .dag {
   font-size: xx-large;
 }
 
 ol {color: aqua;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'biome', 'Courier New', Courier, monospace;
   font-size: large;}
 
 .varer_img {
-  
+
 }
