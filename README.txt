@@ -15,6 +15,7 @@ Velkommen til Havglytt skolekantine! Dette prosjektet er en webapplikasjon som g
 - **Flask**: Web-rammeverk for Python som brukes til å bygge applikasjonen.
 - **Django HTML**: Maler for å strukturere HTML-sider.
 - **CSS**: Brukes for styling av nettsiden.
+                Jeg valgte å ikke bruke CSS grid eller Flexbox fordi at jeg ikke hadde nettsiden satt opp på en måte som trengte dem.
 
 ## Installasjon
 
