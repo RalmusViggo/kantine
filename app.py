@@ -29,6 +29,23 @@ def meny():
                            "Friday" : {
                                "knekkebrød", "brød", "kaviar", "makrellitomat", "sursild"
                                }
+                           },
+                           varmmat = {
+                               "Monday" : {
+                               "kokte wienerpølser"
+                               },
+                           "Tuesday" : {
+                               "en tallerken med kokte poteter."
+                               },
+                           "Wednesday" : {
+                               "en tallerken med kokt brokkoli."
+                               },
+                           "Thursday" : {
+                               "en skål med varm havregrøt."
+                               },
+                           "Friday" : {
+                               "laktose-fri pizza med pepperoni."
+                               }
                            })
 
 @app.route('/varer.html')

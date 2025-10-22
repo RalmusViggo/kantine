@@ -4,6 +4,8 @@ h1 { font-family:  'biome', 'Courier New', Courier, monospace; color: aqua;}
 
 h2 { font-family:  'biome', 'Courier New', Courier, monospace; color: aqua;}
 
+h3 { font-family:  'biome', 'Courier New', Courier, monospace; color: aqua;}
+
 @font-face {
   font-family: 'biome';
   src: url(/static/fonts/OnlineWebFonts_COM_69909bd400587d0ba6c81cc1d5ef66ac/BiomeW01Regular/BiomeW01Regular.ttf);

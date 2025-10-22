@@ -10,18 +10,15 @@
      <li>{{mat}}</li>
     {% endfor %}
     </ol>
-    <h3> 
-        dagenes varmmat:
-    </h3>
-    <br>
-    mandag: pølser. kokte wienerpølse.
-    <br>
-    tirsdag: kokte poteter. en tallerken med kokte poteter.
-    <br>
-    onsdag: kokt brokkoli. en tallerken med kokt brokkoli.
-    <br>
-    torsdag: varm havregrøt. en skål med varm havregrøt.
-    <br>
-    fredag: laktose-fri pizza. laktose-fri pizza med pepperoni.
+    <h2> 
+        dagens varmmat:
+    </h2>
+    <div>
+        {% for varm in varmmat[day.strftime("%A")] %}
+        <h3> {{day.strftime("%A")}}: </h3>
+        <br>
+        {{varm}}
+        {% endfor %}
+    </div>
     
 {% endblock %}
